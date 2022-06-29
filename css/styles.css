@@ -49,6 +49,7 @@ ul {
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 0.5s ease-in-out;
 }
 
 .nav .nav-menu {
@@ -72,6 +73,10 @@ ul {
 .nav .toggle-collapse .toggle-icons i{
     font-size: 1.4rem;
     color: var(--text-gray);
+}
+
+.collapse{
+    height: 30rem;
 }
 
 .nav .nav-items {
